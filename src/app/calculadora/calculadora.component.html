@@ -1,6 +1,6 @@
 <div class="container">
     <div class="form-box">
-        <form #calculadoraForm="ngForm">
+        <form #calculadoraForm="ngForm" (ngSubmit)="somaValores()">
             <h2>Calculadora</h2>
 
             <label for="numero1">Numero 1</label>
@@ -9,7 +9,7 @@
             <label for="numero2">Numero 2</label>
             <input type="number" name="numero2" id="numero2" [(ngModel)]="numero2"/>
 
-            <button type="button" (click)="somaValores()">Somar</button>
+            <button type="submit">Somar</button>
         </form>
 
         <div class="result-display">
