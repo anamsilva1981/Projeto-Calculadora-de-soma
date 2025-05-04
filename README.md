@@ -1,59 +1,102 @@
-# ConceitosBasicos
+# Calculadora Básica em Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.10.
+![Angular Version](https://img.shields.io/badge/Angular-19.2.10-DD0031?logo=angular)
+![Project Status](https://img.shields.io/badge/Status-Concluído-success)
+![License](https://img.shields.io/badge/License-MIT-blue)
 
-## Development server
+Projeto de calculadora simples desenvolvido em Angular para praticar conceitos básicos como componentes, services e data binding.
 
-To start a local development server, run:
+## 🚀 Começando
 
-```bash
+### Pré-requisitos
+
+- Node.js v18+
+- npm ou yarn
+- Angular CLI v19+
+
+### Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/conceitos-basicos.git
+   cd conceitos-basicos
+Instale as dependências:
+
+bash
+npm install
+Inicie o servidor de desenvolvimento:
+
+bash
 ng serve
-```
+Acesse no navegador:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+http://localhost:4200/
+🧩 Funcionalidades
+Soma entre dois números
 
-## Code scaffolding
+Interface limpa e responsiva
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Validação de campos numéricos
 
-```bash
-ng generate component component-name
-```
+Feedback visual do resultado
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+🏗️ Estrutura do Projeto
 
-```bash
-ng generate --help
-```
+src/app/
+├── components/
+│   ├── calculator/          # Componente principal
+│   └── display/             # Componente do display
+├── services/
+│   └── calculator.service.ts # Lógica de cálculo
+├── models/
+│   └── operation.ts         # Tipos de operação
+└── app.module.ts            # Módulo principal
 
-## Building
+🛠 Comandos Úteis
+Comando	Descrição
+ng serve	Inicia servidor de desenvolvimento
+ng build	Gera build de produção
+ng test	Executa testes unitários
+ng generate	Gera novos componentes
 
-To build the project run:
+📝 Exemplo de Uso
+Insira o primeiro número no campo "Número A"
 
-```bash
-ng build
-```
+Insira o segundo número no campo "Número B"
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Clique no botão "Calcular"
 
-## Running unit tests
+Veja o resultado no display
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+🤝 Como Contribuir
+Contribuições são bem-vindas! Siga estes passos:
 
-```bash
-ng test
-```
+Faça um fork do projeto
 
-## Running end-to-end tests
+Crie uma branch (git checkout -b feature/nova-funcionalidade)
 
-For end-to-end (e2e) testing, run:
+Commit suas mudanças (git commit -m 'Adiciona nova funcionalidade')
 
-```bash
-ng e2e
-```
+Push para a branch (git push origin feature/nova-funcionalidade)
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Abra um Pull Request
 
-## Additional Resources
+📄 Licença
+Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para detalhes.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+✉️ Contato
+Seu Nome - @seu_twitter - seu-email@exemplo.com
+
+Este projeto foi gerado com Angular CLI versão 19.2.10.
+
+
+### Melhorias incluídas:
+1. Adicionei badges mais estilizadas
+2. Organizei as seções de forma mais lógica
+3. Incluí tabela de comandos úteis
+4. Adicionei seção de exemplo de uso
+5. Melhorei a formatação geral
+6. Incluí seção de licença
+7. Adicionei emojis para melhor visualização
+
+Você pode copiar este conteúdo diretamente para seu arquivo README.md. Basta substituir as informações genéricas (como URLs, nome e contato) pelos dados reais do seu projeto.
