@@ -15,7 +15,6 @@ export class CalculadoraComponent {
   public numero2?: number;
 
   public somaValores(){
-    console.log('click no botão de soma');
     this.resultado = (this.numero1 ?? 0) + (this.numero2 ?? 0);
   }
 }
